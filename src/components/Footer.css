@@ -1,0 +1,101 @@
+.unione-footer{
+  background: linear-gradient(180deg, #0b2240, #07122a);
+  color: #dbe9ff;
+  padding: 40px 20px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-inner{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-section{
+  flex: 1 1 20px;
+}
+
+.footer-section h3, .footer-section h4{
+  margin: 0 0 12px 0;
+  color: #fff;
+}
+
+.footer-section p, .footer-section ul, .footer-section address{
+  margin: 0 0 8px 0;
+  color: #c9dcff;
+  font-size: 14px;
+}
+
+.footer-section ul{
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section a{
+  color: #bfe1ff;
+  text-decoration: none;
+}
+
+.footer-section a:hover{
+  text-decoration: underline;
+}
+
+.footer-bottom{
+  max-width: 1100px;
+  margin: 18px auto 0;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  color: #a9c7ff;
+  text-align: center;
+  font-size: 13px;
+}
+
+.social a{
+  display: inline-block;
+  margin-right: 12px;
+  color: #bfe1ff;
+}
+
+/* Accordion styles for mobile */
+.footer-accordion summary {
+  list-style: none;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 8px 0;
+  outline: none;
+}
+
+.footer-accordion[open] summary::after {
+  content: "\2013"; /* dash when open */
+  float: right;
+}
+
+.footer-accordion summary::after {
+  content: "+"; /* plus when closed */
+  float: right;
+}
+
+.footer-accordion ul {
+  margin-top: 8px;
+}
+
+.footer-accordion address div {
+  margin-bottom: 6px;
+}
+
+@media (max-width: 680px){
+  .footer-inner{flex-direction: column; align-items: flex-start; gap: 12px;}
+  .footer-section{width:100%; padding: 6px 0;}
+  .footer-section p, .footer-section ul, .footer-section address{ margin: 0 0 6px 0; font-size: 14px; }
+  .footer-accordion summary { padding: 6px 0; }
+}
+
+@media (max-width: 480px) {
+  .unione-footer { padding: 20px 12px; }
+  .footer-section p, .footer-section ul, .footer-section address{ font-size: 14px; }
+  .social a { margin-right: 8px; }
+  .footer-bottom { font-size: 12px; }
+  .footer-accordion summary { font-size: 15px; padding: 8px 0; }
+}
