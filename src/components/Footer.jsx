@@ -26,9 +26,11 @@ function Footer({ className = "" }) {
 
         {/* BRAND */}
         <div className="footer-brand">
+            <div className="logo-container">
           <div className="logo">
-            <span className="logo-icon">U</span>
+              <span className="logo-icon">U</span>
             <h2>UniOne</h2>
+            </div>
           </div>
 
           <p className="brand-text">
@@ -82,7 +84,7 @@ function Footer({ className = "" }) {
 
 
         {/* COMPANY */}
-        <div className="footer-section">
+        <div class="footer-section">
           <h4>COMPANY</h4>
 
           <ul className="footer-list">
@@ -176,7 +178,7 @@ function Footer({ className = "" }) {
 
 
       {/* FOOTER BOTTOM */}
-      <div className="footer-bottom">
+ <div className="footer-bottom">
 
         <div className="footer-left">
           © {new Date().getFullYear()} UniOne Platform. Developed for Academic Excellence.
@@ -198,7 +200,7 @@ function Footer({ className = "" }) {
 
         </div>
 
-      </div>
+      </div> 
 
     </footer>
   );
