@@ -90,30 +90,30 @@ function Footer({ className = "" }) {
           <ul className="footer-list">
 
             <li>
-              <Link to="/our-story" className="list-item">
+              <Link to="/about" className="list-item">
                 <FiBookOpen className="footer-icon"/>
-                Our Story
+                About
               </Link>
             </li>
 
             <li>
               <Link to="/team" className="list-item">
                 <FiUsers className="footer-icon"/>
-                Meet the Humans
+                Team
               </Link>
             </li>
 
             <li>
-              <Link to="/partner" className="list-item">
+              <Link to="/faqs" className="list-item">
                 <FiBriefcase className="footer-icon"/>
-                Partner Us
+                FAQs
               </Link>
             </li>
 
             <li>
-              <Link to="/support" className="list-item">
+              <Link to="/Contact" className="list-item">
                 <FiLifeBuoy className="footer-icon"/>
-                Support
+                Contact
               </Link>
             </li>
 
