@@ -1,0 +1,56 @@
+.cookie-policy-container {
+  background-color: #020617; /* Dark background from Footer.css */
+  color: #cbd5f1; /* Light text color from Footer.css */
+  font-family: Inter, sans-serif;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.cookie-policy-title {
+  color: #e2e8f0; /* Slightly lighter title color */
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.cookie-policy-intro {
+  font-size: 1.1em;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.cookie-policy-intro a {
+  color: #3b82f6; /* Link color from Footer.css */
+  text-decoration: none;
+}
+
+.cookie-policy-intro a:hover {
+  text-decoration: underline;
+}
+
+.cookie-policy-section {
+  margin-bottom: 30px;
+}
+
+.cookie-policy-section-title {
+  color: #e2e8f0;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #1e293b; /* Border from Footer.css */
+  padding-bottom: 10px;
+}
+
+.cookie-policy-section p {
+  margin-bottom: 15px;
+}
+
+.cookie-policy-section a {
+  color: #3b82f6; /* Link color from Footer.css */
+  text-decoration: none;
+}
+
+.cookie-policy-section a:hover {
+  text-decoration: underline;
+}
