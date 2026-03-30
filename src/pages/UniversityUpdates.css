@@ -1,0 +1,85 @@
+.uni-updates-container {
+  background-color: #020617;
+  color: #cbd5f1;
+  font-family: Inter, sans-serif;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.uni-updates-title {
+  color: #e2e8f0;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.uni-updates-subtitle {
+  text-align: center;
+  font-size: 1.1em;
+  margin-bottom: 40px;
+  color: #94a3b8;
+}
+
+.uni-updates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 24px;
+}
+
+.update-card {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+  padding: 24px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.update-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(59, 130, 246, 0.08);
+}
+
+.update-card-badge {
+  display: inline-block;
+  font-size: 0.7em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.badge-exam { background: #1e3a5f; color: #60a5fa; }
+.badge-event { background: #312e81; color: #a78bfa; }
+.badge-general { background: #064e3b; color: #34d399; }
+.badge-result { background: #713f12; color: #fbbf24; }
+
+.update-card h3 {
+  color: #e2e8f0;
+  font-size: 1.15em;
+  margin-bottom: 8px;
+}
+
+.update-card p {
+  font-size: 0.95em;
+  margin-bottom: 12px;
+  color: #94a3b8;
+}
+
+.update-card-date {
+  font-size: 0.8em;
+  color: #475569;
+}
+
+@media (max-width: 480px) {
+  .uni-updates-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .uni-updates-title {
+    font-size: 1.8em;
+  }
+}

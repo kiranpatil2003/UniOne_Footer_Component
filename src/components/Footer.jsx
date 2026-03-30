@@ -46,9 +46,9 @@ function Footer({ className = "" }) {
 
           <ul className="footer-list">
             <li>
-              <Link to="/" className="list-item">
+              <Link to="/university-updates" className="list-item">
                 <FiCpu className="footer-icon" />
-                Home
+                University Updates
               </Link>
             </li>
             <li>
